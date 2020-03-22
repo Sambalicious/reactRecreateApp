@@ -1,0 +1,97 @@
+
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: 'FontAwesome', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 48px;
+}
+
+    .box-1{
+        background: url('../assets/img/ShopRite.png');
+        
+    }
+    .box-2{
+        background: url('../assets/img/Whispering\ palms.png');
+      
+    }
+    .box-3{
+        background: url('../assets/img/Zuma\ rock.png');
+        
+    }
+
+    .box-4{
+        background: url('../assets/img/Omu\ resort.png');
+        
+    }
+    .box-5{
+        background: url('../assets/img/Nike\ art\ gallery.png');
+        
+    }
+
+    .box-6{
+        background: url('../assets/img/Peace\ park.png');
+        
+    }
+
+
+    .card{
+        border: 1px solid #fff;
+        border-radius: .25rem;
+    }
+
+    .bg-img{
+        min-height: 150px;
+        background-size: cover;
+        background-position: center;
+  background-color: #ccc;
+
+    }
+
+    .content {
+        padding: 15px;
+      }
+      
+      button {
+        background-color: transparent;
+        border: 1px solid #2196F3;
+        padding: .5rem 1rem;
+        cursor: pointer;
+        border-radius: .25rem;
+      }
+
+    
+      .grid-container {
+          margin: 80px;
+             display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 40px;
+     }
+
+      .card {
+        border: 1px solid #d3d3d3;
+        border-radius: .25rem;
+      }
+      
+      .bg-img {
+        background-size: cover;
+        min-height: 180px;
+        background-position: center;
+        background-color: #ccc;
+      }
+      
+      .content {
+        padding: 15px;
+      }
+      
+      button {
+        background-color: transparent;
+        border: 1px solid #2196F3;
+        padding: .5rem 1rem;
+        cursor: pointer;
+        border-radius: .25rem;
+      }
