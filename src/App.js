@@ -15,7 +15,6 @@ const App = () => {
         
                 <Navbar />
                 <Home />
-                <LandingPage />
                 <VisitsPage />
                 <RecommendedPage />
                 <FunPlace />

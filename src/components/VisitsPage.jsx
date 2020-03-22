@@ -6,9 +6,9 @@ const VisitsPage = () => {
              <h2> Most Visited Places </h2>
             <div className="grid-container">
                 <div className="card">
-                    <div className="bg-img box-1"> </div>
+                    <div className="bg-img box-1 dark"> </div>
                     <div className="content">
-                        <h4>Title</h4>
+                        <h4>Shoprite Abuja</h4>
                         <p>hello world! this is some text to show what will be rendered</p>
                         <button>Read More</button>
                     </div>
@@ -27,7 +27,7 @@ const VisitsPage = () => {
                     <div className="card">
                     <div className="bg-img box-3"> </div>
                     <div className="content">
-                        <h4>Title</h4>
+                        <h4>Zuma Rock, Abuja</h4>
                         <p>hello world! this is some text to show what will be rendered</p>
                         <button>Read More</button>
                     </div>
@@ -36,7 +36,7 @@ const VisitsPage = () => {
                     <div className="card">
                     <div className="bg-img box-4"> </div>
                     <div className="content">
-                        <h4>Title</h4>
+                        <h4>Omu Resort</h4>
                         <p>hello world! this is some text to show what will be rendered</p>
                         <button>Read More</button>
                     </div>
@@ -45,7 +45,7 @@ const VisitsPage = () => {
                     <div className="card">
                     <div className="bg-img box-5"> </div>
                     <div className="content">
-                        <h4>Title</h4>
+                        <h4>Nike Art Gallery, Lagos</h4>
                         <p>hello world! this is some text to show what will be rendered</p>
                         <button>Read More</button>
                     </div>
@@ -54,7 +54,7 @@ const VisitsPage = () => {
                     <div className="card">
                     <div className="bg-img box-6"> </div>
                     <div className="content">
-                        <h4>Title</h4>
+                        <h4>Peace Park Portharcourt</h4>
                         <p>hello world! this is some text to show what will be rendered</p>
                         <button>Read More</button>
                     </div>
