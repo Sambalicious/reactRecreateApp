@@ -5,7 +5,7 @@ const Special = ({pics, title}) => {
     return ( <Fragment>
       
               
-            <div className="shadow-2xl m-40 ">
+            <div className="shadow-2xl m-16 ">
             <div className="flex justify-between  p-10 md:flex">
       <div className="mt-4 mr-16 md:mt-0 md:ml-6">
          <div className="uppercase tracking-wide text-sm text-indigo-600 font-bold">{title} </div>

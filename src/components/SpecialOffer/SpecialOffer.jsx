@@ -9,7 +9,9 @@ const SpecialOffer = () => {
     return ( 
         <div>
             <NavBar />
-            <h2 className="text-center m-6 text-5xl font-bold border-t border-black ">Special Offers</h2>
+            <div className="my-10">
+            <h2 className="text-center text-5xl font-bold">Special Offers</h2>
+            </div>
             <Special pics={zuma} title={'Zuma Rock'} />
             <Special pics={omu} title={'Omu Resort'} />
             <div className="flex justify-center">
