@@ -1,10 +1,10 @@
 import React,{Fragment} from 'react'
 
 
-const AboutUs = ({title,pics}) => {
+const AboutUs = ({pics}) => {
     return ( 
         <Fragment>
-            <div className="text-center m-6 text-5xl font-bold">{title} </div>
+            
            <div className="flex justify-around m-20  md:flex justify-between">
                 <div className="mr-10 md:flex-shrink-0">
                     <img  className="w-full" src={pics} alt="alpha beach image"/>

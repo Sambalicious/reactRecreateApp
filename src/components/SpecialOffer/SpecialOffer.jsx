@@ -9,13 +9,13 @@ const SpecialOffer = () => {
     return ( 
         <div>
             <NavBar />
-            <div className="my-10">
-            <h2 className="text-center text-5xl font-bold">Special Offers</h2>
+            <div className="mt-10 -mb-32">
+            <h2 className="text-center text-5xl font-normal">Special Offers</h2>
             </div>
             <Special pics={zuma} title={'Zuma Rock'} />
             <Special pics={omu} title={'Omu Resort'} />
             <div className="flex justify-center">
-                <button >See More</button>
+                <button  className="border-2 border-gray-600 -mt-20 px-2">See More</button>
             </div>
         </div>
      );

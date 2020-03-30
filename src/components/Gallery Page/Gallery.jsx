@@ -3,9 +3,9 @@ import contact from '../../utils/img/contact.jpeg'
 
 
 
-const Gallery = ({title, pics}) => {
+const Gallery = ({ pics}) => {
     return ( 
-        <div><div className="text-center m-6 text-5xl font-bold">{title} </div>
+        <div>
            <div className="flex justify-around m-20  md:flex justify-between">
                 <div className="mr-10 md:flex-shrink-0">
                     <img  className="w-full" src={pics} alt="alpha beach image"/>

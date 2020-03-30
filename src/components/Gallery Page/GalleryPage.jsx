@@ -8,7 +8,10 @@ const GalleryPage = () => {
     return ( 
         <div>
             <NavBar/>
-            <Gallery title={'Gallery'} pics={gallery} />
+            <div className="mt-10 ">
+            <h2 className="text-center text-5xl font-normal">Gallery</h2>
+            </div>
+            <Gallery pics={gallery} />
             <Gallery  pics={gallery3} />
            
         </div>
