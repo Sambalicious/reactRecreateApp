@@ -5,7 +5,7 @@ import logo from '../../utils/img/logo.png'
 
 const NavBar = () => {
     return ( 
-        <nav className="flex justify-around items-right  flex-wrap bg-white border-b border-black mb-4  ">
+        <nav className="flex justify-around items-center  flex-wrap bg-white border-b border-black mb-4  ">
   <div className="flex items-center flex-shrink-0 text-black  mr-64 ">
     <img src={logo} alt="Logo" />
   </div>
@@ -22,7 +22,7 @@ const NavBar = () => {
       <Link to="/gallery" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:bg-blue-500 py-2 px-2 hover:text-white mr-6">
         Gallery
       </Link>
-      <Link to="/login" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:bg-blue-500 py-2 px-2  hover:text-white">
+      <Link to="/login" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:bg-blue-500 py-2 px-2  hover:text-white mr-6">
         Login
       </Link>
       <Link to="/about-us" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:bg-blue-500 py-2 px-2 hover:text-white mr-6">

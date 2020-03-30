@@ -1,5 +1,5 @@
 import React from 'react';
-import contact from '../../utils/img/contact.jpeg'
+
 
 
 
@@ -8,7 +8,7 @@ const Gallery = ({ pics}) => {
         <div>
            <div className="flex justify-around m-20  md:flex justify-between">
                 <div className="mr-10 md:flex-shrink-0">
-                    <img  className="w-full" src={pics} alt="alpha beach image"/>
+                    <img  className="w-full" src={pics} alt="alpha beach"/>
                    
             </div>
             <div className="mt-4 md:mt-0 md:ml-6">
