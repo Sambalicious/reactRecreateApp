@@ -5,6 +5,7 @@ import FindPage from './components/Findpage/FindPage';
 import SpecialOffer from './components/SpecialOffer/SpecialOffer';
 import GalleryPage from './components/Gallery Page/GalleryPage'
 import AboutPage from './About Page/AboutPage';
+import LoginPage from './components/login/LoginPage';
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
                 <Route path='/special-offer' exact component={SpecialOffer} />
                 <Route path='/gallery' exact component={GalleryPage} />
                 <Route path='/about-us' exact component={AboutPage} />
+                <Route path='/login' exact component={LoginPage}  />
                 </Switch>
             </Router>
           
