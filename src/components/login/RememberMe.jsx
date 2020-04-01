@@ -1,14 +1,15 @@
 import React from 'react';
+import {Link } from 'react-router-dom'
 
 
 const RememberMe = () => {
     return ( 
-            <div className="flex justify-between">
-                 <span className="" >
-                    <input type="checkbox" value="Remember Me" />Remember Me
-                </span>
-                <span className='mb-4 text-red-200'>Forgot password?</span>
-            </div>
+            <div  className="flex justify-between -mt-4 mb-10">
+                 <span className="text-sm" >
+                    <input type="checkbox" value="" />Remember Me
+                    </span>
+        <Link to='/password-Reset' className="text-red-500 text-sm">Forgot password</Link>
+        </div>
      );
 }
  

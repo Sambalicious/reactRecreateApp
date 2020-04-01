@@ -23,31 +23,23 @@
     
     padding: 0 4rem;
     width: 70%;
-    height: 60%;
-    display: block;
     margin-top: 40px;
     
-}
-.btn::before{
-
-    display: block;
-    content: "";
-    position: absolute;
-}
-
-
-.btn{
-    z-index: -1;
 }
 
 @media screen and (max-width: 767px){
     .box{
         padding: 0 2rem;
-        width: 90%;
+        width: 100%;
         height: 100%;
         margin: 4rem;
         margin-top: 8rem;
 
+
+    }
+
+    .google{
+        z-index: -1;
     }
 
 }

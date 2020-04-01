@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-const Button = () => {
+const Button = ({label}) => {
     return ( 
         <div>
-            <button class="w-full bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                     Log In
+            <button class="w-full md:p-2 bg-transparent hover:bg-indigo-900 text-black font-semibold hover:text-white py-2 px-4 border border-blue-900 hover:border-transparent rounded">
+                     {label}
             </button>
         </div>
      );
