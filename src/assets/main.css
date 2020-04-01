@@ -10912,6 +10912,8 @@ video {
   transition-duration: 1000ms;
 }
 
+@import '../components/login/login.css';
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -52143,3 +52145,6 @@ video {
     transition-duration: 1000ms;
   }
 }
+
+
+
