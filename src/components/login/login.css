@@ -10,8 +10,7 @@
     background: url('../../utils/img/palms2.svg');
     width: 100vw;
     height: 100vh;
-    
-
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -22,8 +21,8 @@
 .box{
     
     padding: 0 4rem;
-    width: 70%;
-    margin-top: 40px;
+    width: 50%;
+    margin-top: 20px;
     
 }
 

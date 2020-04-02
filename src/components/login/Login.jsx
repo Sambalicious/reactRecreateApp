@@ -12,7 +12,7 @@ import google from '../../utils/img/google.png'
 const Login = () => {
     return ( 
         <div className="bg-auto sm:bg-cover custom-css">
-           <div className="w-6/12 bg-white shadow-md rounded m-10 px-8 pt-6 pb-8 mb-4">
+           <div className="w-6/12 bg-white shadow-md rounded -mt-2 m-10 px-8 pt-6 pb-8 mb-4">
            <form className='ml-10 mr-10'>
            <h2 className="text-center mb-6">Welcome back</h2>
             <Form label={'Username'} 
